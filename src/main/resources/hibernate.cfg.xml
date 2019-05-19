@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> <!DOCTYPE hibernate-configuration SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://remotemysql.com/Nksmygaj9S</property>
+        <property name="hibernate.connection.username">Nksmygaj9S</property>
+        <property name="hibernate.connection.password">oSqPzInPOx</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="com.sda.model.User"/>
+        <mapping class="com.sda.model.Employee"/>
+
+    </session-factory>
+</hibernate-configuration>
